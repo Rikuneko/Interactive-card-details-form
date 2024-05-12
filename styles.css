@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    position: relative;
+}
+
+form {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 2;
+}
+
+
+label {
+    font-size: 18px;
+    justify-content: flex-start;
+    display: flex;
+    
+    
+}
+
+input {
+    font-size: 18px;
+    padding: 7px;
+    width: 350px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: lightgray;
+    color: lightgray;
+}
+
+button {
+    width: 370px;
+    height: 35px;
+    border-radius: 5px;
+    border-width: 0;
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    cursor: pointer;
+}
+
+.leftBackground {
+    flex: 1;
+    background: linear-gradient(hsl(278, 92%, 9%),hsl(321, 54%, 27%),hsl(278, 92%, 9%));
+}
+
+.frontCard {
+    background: linear-gradient(hsl(249, 30%, 51%), hsl(278, 92%, 25%));
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    z-index: 2;
+    border-radius: 20px;
+    top: 200px;
+    left: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.Circle {
+    display: flex;
+    align-items: center;
+}
+
+.bigCircle {
+    width: 50px;
+    height: 50px;
+    background-color: beige;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.smallCircle {
+    width: 25px;
+    height: 25px;
+    border-color: aliceblue;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.frontCardNumber {
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.5rem;
+    margin-top: 20px;
+}
+
+.bottomCard {
+    justify-content: space-between;
+    display: flex;
+    margin: 0 20px 20px 20px;
+    color: white;
+    
+    
+}
+
+.cardHolderName {
+    font-size: 18px;
+    letter-spacing: 0.2rem;
+}
+
+.cardExpDate {
+    font-size: 18px;
+    letter-spacing: 0.2rem;
+}
+
+.backCard {
+    background: hsl(270, 3%, 87%);
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    z-index: 2;
+    border-radius: 20px;
+    top: 490px;
+    left: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.blackLine {
+    background-color: black;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.mainBackCard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.greyBox {
+    background-color: hsl(279, 6%, 55%);
+    height: 35px;
+    width: 370px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 3px;
+
+
+}
+
+.greyBox p{
+    margin-right: 20px;
+    color: white;
+
+}
+
+.footerBackCard {
+    margin-top: 20px;
+    width: 300px;
+}
+
+.footerBackCard p {
+    font-size: 12px;
+    color: hsl(279, 6%, 55%);
+}
+
+/* @media only screen and (min-width: 375px) and (max-width: 1440px) {
+    .leftBackground {
+      flex-direction:column ;
+      justify-content: start;
+      align-items: start;
+    }
+  } */
